@@ -1,0 +1,16 @@
+.input {
+  width: calc(100% - 32px);
+  font-size: 18px;
+  padding: 10px 16px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: rgba(152, 56, 56, 1);
+  font-weight: bold;
+}
+
+.input::placeholder {
+  color: rgba(152, 56, 56, 1);
+  font-weight: bold;
+}

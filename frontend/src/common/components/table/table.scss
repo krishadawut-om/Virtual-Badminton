@@ -1,0 +1,45 @@
+.table {
+  width: 100%;
+  border-spacing: 0 6px;
+}
+
+.table th,
+.table td {
+  padding: 16px 32px;
+  white-space: nowrap;
+  color: white;
+  font-weight: bold;
+  &:first-child {
+    text-align: left;
+    border-radius: 8px 0 0 8px;
+  }
+  &:last-child {
+    text-align: right;
+    border-radius: 0 8px 8px 0;
+  }
+}
+
+.table thead {
+  text-align: center;
+  background-color: rgba($color: white, $alpha: 1);
+  &:hover {
+    background-color: rgba(white, 0.75);
+  }
+}
+
+.table tr {
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgba($color: white, $alpha: 0.3);
+  &:hover {
+    background-color: rgba(white, 0.2);
+  }
+}
+
+.table th {
+  padding: 8px 32px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}

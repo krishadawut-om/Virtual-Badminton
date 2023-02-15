@@ -1,0 +1,11 @@
+.rank {
+  height: calc(100vh - 50px);
+  width: 100vw;
+  background-image: url("../../../common/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #a03232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
