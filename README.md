@@ -1,6 +1,6 @@
 # Virtual-Badminton
 
-In or der to run the frontend service of the web site, you can follow the following steps:
+In or der to run the frontend and backend service of the web site, you can follow the following steps:
 
 Frist clone the project repository using this command:
 
